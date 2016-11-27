@@ -25,22 +25,20 @@ h1, h2, h3 {
     background-image: url("/Users/mdewey/Development/wats3010/wats1010-product-page/assets/logos/api_superstore_logo_by.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: ce;
-    border-radius: 1em;
+    background-position: center;
     position: float;
     margin-top: 10px;
 }
 
 .navigation {
-    position: fixed;
-    margin-left: 1200px;
+    margin-left: 1220px;
     margin-top: 0;
     height: 200px;
     width: 200px;
 }
 
-.navigation li {
-    display: flex;
+.navigation .links {
+    position: fixed;
     list-style: none;
     font-size: 28px;
     font-weight: normal;
@@ -119,16 +117,16 @@ h1, h2, h3 {
 
 .footer .row {
     position: static;
-    padding-top: 200px;
-    padding-left: 200px;
-    bottom: 10px;
+    padding-top: 120px;
+    padding-left: 40px;
+    bottom: 1px;
     display: block;
     width: 100%;
 }
 
 .footer .row h2 {
     text-align: center;
-    font-size: 24px;
-    background-color: yellow;
+    font-size: 18px;
     height: 40px;
+    line-height: auto;
 }
