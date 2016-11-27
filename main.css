@@ -1,8 +1,96 @@
 /* Styles for Product Page Customization */
+
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Users/mdewey/Development/wats3010/wats1010-product-page/assets/misc/happy-squarespace-developer-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    height: 5em;
+    color: black;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-image: url("/Users/mdewey/Development/wats3010/wats1010-product-page/assets/logos/api_superstore_logo_by.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: ce;
+    border-radius: 1em;
+    position: float;
+    margin-top: 10px;
+}
+
+.navigation {
+    position: fixed;
+    margin-left: 1200px;
+    margin-top: 0;
+    height: 200px;
+    width: 200px;
+}
+
+.navigation li {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    font-weight: normal;
+
+}
+
+.navigation a {
+        color:black;
+}
+
+.navigation a:hover {
+    font-size: 32px;
+    color: black;
+}
+
+.userFeedback {
+    border-radius: 1em;
+}
+
+.responsive-video {
+    margin-top: 5px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.signup button {
+    width: 10em;
+    height: 10em;
+}
+
+.carousel-content {
+    color: black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
 }
