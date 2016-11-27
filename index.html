@@ -32,14 +32,13 @@
 
 <body>
     <div class="header">
-         <div class="navigation">
+        <div class="navigation">
             <ul class="links">
                 <li><a href="#index.html">Home</a></li>
                 <li><a href="#video">Demo</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#features">Features</a>
-                    <li>
-                        <li>Contact Us!</li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#social">Contact Us!</a></li>
             </ul>
         </div>
     </div>
@@ -55,6 +54,13 @@
         </div>
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
+        <div class="introduction">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <p>The API Superstore has partnered with API providers across the Web to bring you easy access to the hottest third­party services and features. Get started today!</p>
+                </div>
+            </div>
+        </div>
         <!-- TODO: Create an area to put the explainer video. -->
         <div class="responsive-video">
             <div id="video">
@@ -66,43 +72,45 @@
         <!-- User feedback on the API SuperStore -->
         <h2>Customer Testimonials</h2>
         <div id="text-carousel" class="carousel slide" data-ride="carousel">
-    <!-- Wrapper for slides -->
-    <div class="row">
-        <div class="col-xs-offset-3 col-xs-6">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="carousel-content">
-                        <div>
-                            <p>“This is the best website ever!” ­­ C.P. Yu, AmazingSite.com</p>
+            <!-- Wrapper for slides -->
+            <div class="row">
+                <div class="col-xs-offset-3 col-xs-6">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carousel-content">
+                                <div>
+                                    <p>“This is the best website ever!” ­­ C.P. Yu, AmazingSite.com</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel-content">
-                        <div>
-                            <p>“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!” ­­ Amy Zon, Massive Anonymous Customer</p>
+                        <div class="item">
+                            <div class="carousel-content">
+                                <div>
+                                    <p>“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up
+                                        with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!” ­­ Amy Zon, Massive Anonymous Customer</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel-content">
-                        <div>                          
-                            <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” ­­ Clara Cache</p>
+                        <div class="item">
+                            <div class="carousel-content">
+                                <div>
+                                    <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” ­­ Clara Cache</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
- <a class="right carousel-control" href="#text-carousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
 
-</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#text-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
         <!-- End of user feedback. -->
         <!-- TODO: Create an area to show features. -->
         <div class="featureSet">
@@ -122,12 +130,44 @@
              page. -->
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
-        <div class="signup">
+        <div class="social">
             <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
-                <button>Sign up!</button>
+                <div class="row">
+                    <img src="assets/logos/iconmonstr-facebook-3.svg">
+                    <img src="assets/logos/iconmonstr-twitter-3.svg">
+                    <img src="assets/logos/iconmonstr-tumblr-3.svg">
+                    <img src="assets/logos/iconmonstr-reddit-3.svg">
+                    <img src="assets/logos/iconmonstr-paper-plane-1.svg">
+                </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jqueary/2.1.3/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        </div>
+        <!-- Sign up form -->
+        <div class="signup">
+            <h2>Sign up today!</h2>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Matt Dewey">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail2">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="deweym2@seattleu.edu">
+                </div>
+                <button type="submit" class="btn btn-primary">Send invitation</button>
+            </form>
+        </div>
+<!-- End of sign up -->
+
+<!-- Contact Info -->
+<div class="footer">
+    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+        <div class="row">
+            <h2><b>Phone:</b> 206­555­1234</h2>
+            <h2><b>Email:</b> info@apisuperstore.com</h2>
+            <h2><b>Location:</b> Seattle, Washington, USA</h2>
+</div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueary/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -44,11 +44,10 @@ h1, h2, h3 {
     list-style: none;
     font-size: 28px;
     font-weight: normal;
-
 }
 
 .navigation a {
-        color:black;
+    color: black;
 }
 
 .navigation a:hover {
@@ -56,9 +55,17 @@ h1, h2, h3 {
     color: black;
 }
 
-.userFeedback {
-    border-radius: 1em;
+.introduction {
+    height: 200px;
+    width: 100%;
 }
+
+.introduction .row p {
+    font-size: 32px;
+    opacity: 1;
+    color: black;
+}
+
 
 .responsive-video {
     margin-top: 5px;
@@ -68,9 +75,7 @@ h1, h2, h3 {
     overflow: hidden;
 }
 
-.responsive-video iframe,
-.responsive-video object,
-.responsive-video embed {
+.responsive-video iframe, .responsive-video object, .responsive-video embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,19 +83,52 @@ h1, h2, h3 {
     height: 50%;
 }
 
-.signup button {
-    width: 10em;
-    height: 10em;
-}
-
 .carousel-content {
     color: black;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 #text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.social .row {
+    background-color: yellow;
+    display: block;
+}
+
+.signup {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.signup h2 {
+    font-size: 48px;
+    height: 60px;
+}
+
+.form-inline {
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.footer .row {
+    position: static;
+    padding-top: 200px;
+    padding-left: 200px;
+    bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.footer .row h2 {
+    text-align: center;
+    font-size: 24px;
+    background-color: yellow;
+    height: 40px;
 }
