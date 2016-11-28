@@ -7,7 +7,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image: url("/Users/mdewey/Development/wats3010/wats1010-product-page/assets/misc/happy-squarespace-developer-1.jpg");
+    background-image: url("/assets/misc/happy-squarespace-developer-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ h1, h2, h3 {
 .header {
     height: 200px;
     width: 100%;
-    background-image: url("/Users/mdewey/Development/wats3010/wats1010-product-page/assets/logos/api_superstore_logo_by.png");
+    background-image: url("assets/logos/api_superstore_logo_by.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
