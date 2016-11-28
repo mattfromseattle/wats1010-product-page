@@ -7,7 +7,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image: url("/assets/misc/happy-squarespace-developer-1.jpg");
+    background-image: url("assets/misc/happy-squarespace-developer-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
