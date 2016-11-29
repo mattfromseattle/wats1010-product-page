@@ -41,6 +41,9 @@ h1, h2, h3 {
 
 .social .row {
     display: inline-flex;
+    position: relative;
+    top: 50px;
+    left: 130px;
 }
 
 .social .row img {
