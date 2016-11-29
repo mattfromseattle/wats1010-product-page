@@ -19,83 +19,29 @@ h1, h2, h3 {
     color: black;
 }
 
-.header {
-    height: 200px;
-    width: 100%;
-    background-image: url("assets/logos/api_superstore_logo_by.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: float;
-    margin-top: 10px;
+.jumbotron {
+  margin-top: 50px;
+  background-image: url("assets/logos/api_superstore_sqlogo_by.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 
-.navigation {
-    margin-left: 1220px;
-    margin-top: 0;
-    height: 200px;
-    width: 200px;
+.customer-testimonials {
+  width: 100%
 }
 
-.navigation .links {
-    position: fixed;
-    list-style: none;
-    font-size: 28px;
-    font-weight: normal;
-}
-
-.navigation a {
-    color: black;
-}
-
-.navigation a:hover {
-    font-size: 32px;
-    color: black;
-}
-
-.introduction {
-    height: 200px;
-    width: 100%;
-}
-
-.introduction .row p {
-    font-size: 32px;
-    opacity: 1;
-    color: black;
-}
-
-
-.responsive-video {
-    margin-top: 5px;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 60px;
-    overflow: hidden;
-}
-
-.responsive-video iframe, .responsive-video object, .responsive-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-}
-
-.carousel-content {
-    color: black;
-    display: flex;
-    align-items: center;
-}
-
-#text-carousel {
-    width: 100%;
-    height: auto;
-    padding: 50px;
+.container {
+  background-color: white;
 }
 
 .social .row {
     background-color: yellow;
     display: block;
+}
+
+.responsive-video {
+  margin-left: 500px;
 }
 
 .signup {
