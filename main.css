@@ -28,16 +28,23 @@ h1, h2, h3 {
 }
 
 .customer-testimonials {
-  width: 100%
+  width: 100%;
 }
 
-.container {
-  background-color: white;
+.customer-testimonials p {
+    text-shadow: #CCC 1px 0 10px;
+}
+
+.customer-testimonials .row {
+  margin-left: 250px;
 }
 
 .social .row {
-    background-color: yellow;
-    display: block;
+    display: inline-flex;
+}
+
+.social .row img {
+  padding: 5px;
 }
 
 .responsive-video {
