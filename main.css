@@ -20,15 +20,15 @@ h1, h2, h3 {
 }
 
 .jumbotron {
-  margin-top: 50px;
-  background-image: url("assets/logos/api_superstore_sqlogo_by.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+    margin-top: 50px;
+    background-image: url("assets/logos/api_superstore_sqlogo_by.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 .customer-testimonials {
-  width: 100%;
+    width: 100%;
 }
 
 .customer-testimonials p {
@@ -36,7 +36,30 @@ h1, h2, h3 {
 }
 
 .customer-testimonials .row {
-  margin-left: 250px;
+    margin-left: 250px;
+}
+
+.col-lg-3 h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.col-lg-3 p {
+    width: 100%;
+    font-size: 24px;
+}
+
+.container .row {
+  display: inline;
+}
+
+.container .row p {
+  text-align: center;
+}
+
+.col-md-3 {
+  text-align: center;
 }
 
 .social .row {
@@ -47,42 +70,13 @@ h1, h2, h3 {
 }
 
 .social .row img {
-  padding: 5px;
+    padding: 5px;
 }
 
 .responsive-video {
-  margin-left: 500px;
+    margin-left: 500px;
 }
 
-.signup {
-    position: absolute;
-    padding: 10px;
-    width: 100%;
+.footer {
     text-align: center;
-}
-
-.signup h2 {
-    font-size: 48px;
-    height: 60px;
-}
-
-.form-inline {
-    margin-top: 10px;
-    padding-bottom: 50px;
-}
-
-.footer .row {
-    position: static;
-    padding-top: 120px;
-    padding-left: 40px;
-    bottom: 1px;
-    display: block;
-    width: 100%;
-}
-
-.footer .row h2 {
-    text-align: center;
-    font-size: 18px;
-    height: 40px;
-    line-height: auto;
 }
