@@ -29,6 +29,7 @@ h1, h2, h3 {
 
 .customer-testimonials {
     width: 100%;
+    padding: 40px;
 }
 
 .customer-testimonials p {
@@ -37,6 +38,12 @@ h1, h2, h3 {
 
 .customer-testimonials .row {
     margin-left: 250px;
+}
+
+.col-lg-3 {
+    margin: 10px;
+    width: 30%;
+    text-align: center;
 }
 
 .col-lg-3 h2 {
@@ -48,18 +55,18 @@ h1, h2, h3 {
 .col-lg-3 p {
     width: 100%;
     font-size: 24px;
+    text-shadow: 2px 2px 2px white;
 }
 
-.container .row {
-  display: inline;
+.features-container h2 {
+    text-align: center;
+    height: 40px;
 }
 
-.container .row p {
-  text-align: center;
-}
-
-.col-md-3 {
-  text-align: center;
+.features-container p {
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
 }
 
 .social .row {
@@ -79,4 +86,5 @@ h1, h2, h3 {
 
 .footer {
     text-align: center;
+    width: 100%;
 }
