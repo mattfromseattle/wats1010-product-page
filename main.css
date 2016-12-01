@@ -11,12 +11,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
 }
 
 h1, h2, h3 {
     height: 5em;
     color: black;
+}
+
+h4 {
+  color: white;
 }
 
 .jumbotron {
@@ -37,7 +42,7 @@ h1, h2, h3 {
 }
 
 .customer-testimonials .row {
-    margin-left: 250px;
+    margin-left: 80px;
 }
 
 .col-lg-3 {
@@ -50,23 +55,26 @@ h1, h2, h3 {
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .col-lg-3 p {
+    color: white;
     width: 100%;
     font-size: 24px;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px black;
 }
 
-.features-container h2 {
-    text-align: center;
-    height: 40px;
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
 }
 
-.features-container p {
-    padding-top: 10px;
-    text-align: center;
-    text-shadow: 2px 2px 2px white;
+.panel-heading a.collapsed:after {
+    content: "\e080";
 }
 
 .social .row {
@@ -81,7 +89,7 @@ h1, h2, h3 {
 }
 
 .responsive-video {
-    margin-left: 500px;
+    margin-left: 550px;
 }
 
 .footer {
